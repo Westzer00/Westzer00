@@ -4,14 +4,14 @@
 
 ## 🎯 대표 프로젝트
 
-<table width="100%">
+<table width="1100">
   <tr>
-    <td width="21%" align="center" valign="middle">
+    <td width="230" align="center" valign="middle">
       <h2>🔁</h2>
       <strong>AI 백엔드 개발</strong><br/>
       <sub>LOOP 입·출력 구조 개선</sub>
     </td>
-    <td width="79%" valign="top">
+    <td width="870" valign="top">
       <strong><a href="https://github.com/Westzer00/exem-ai-workflow">EXEM · AI 워크플로우 및 PHISIGHT</a></strong><br/>
       <sub>2026.07~10 · 5인 기업연계 프로젝트 · 공공기관 협업 과제</sub>
       <p>🔎 <strong>문제</strong> — LOOP 내부 여러 노드의 실행 결과를 다음 회차에 개별 전달하기 어려운 기존 구조</p>
@@ -54,22 +54,22 @@
 
 ## 📂 다른 프로젝트
 
-<table width="100%">
+<table width="1100">
   <tr>
-    <th width="35%" align="left">프로젝트</th>
-    <th width="65%" align="left">구현 및 검증</th>
+    <th width="390" align="left">프로젝트</th>
+    <th width="710" align="left">구현 및 검증</th>
   </tr>
   <tr>
-    <td>🧴 <a href="https://github.com/Westzer00/cosmetic-coldstart-risk-ml"><strong>신제품 위험 선별 ML</strong></a></td>
-    <td>출시 전 입력 변수 설계·데이터 누수 방지 검증<br/><sub>4인 팀장 · 제1저자 학술발표</sub></td>
+    <td width="390">🧴 <a href="https://github.com/Westzer00/cosmetic-coldstart-risk-ml"><strong>신제품 위험 선별 ML</strong></a></td>
+    <td width="710">출시 전 입력 변수 설계·데이터 누수 방지 검증<br/><sub>4인 팀장 · 제1저자 학술발표</sub></td>
   </tr>
   <tr>
-    <td>🎬 <a href="https://github.com/Westzer00/univtg-creator-segment-retrieval"><strong>영상 관심 구간 검색·평가</strong></a></td>
-    <td>UniVTG 검색·LLM 질의 설계, 상위 후보 정렬 병목 분석</td>
+    <td width="390">🎬 <a href="https://github.com/Westzer00/univtg-creator-segment-retrieval"><strong>영상 관심 구간 검색·평가</strong></a></td>
+    <td width="710">UniVTG 검색·LLM 질의 설계, 상위 후보 정렬 병목 분석</td>
   </tr>
   <tr>
-    <td>🚀 <a href="https://github.com/Westzer00/rocket-avionics-case-study"><strong>로켓 비행전자 시스템</strong></a></td>
-    <td>센서 처리·하강 판단·낙하산 제어 개발 참여<br/><sub>실제 제작·발사 시험 및 코드·사진</sub></td>
+    <td width="390">🚀 <a href="https://github.com/Westzer00/rocket-avionics-case-study"><strong>로켓 비행전자 시스템</strong></a></td>
+    <td width="710">센서 처리·하강 판단·낙하산 제어 개발 참여<br/><sub>실제 제작·발사 시험 및 코드·사진</sub></td>
   </tr>
 </table>
 
@@ -83,17 +83,17 @@
 
 ## 💡 개발 강점
 
-<table width="100%">
+<table width="1100">
   <tr>
-    <td width="33%" align="center" valign="top">
+    <td width="366" align="center" valign="top">
       <strong>🧩 기존 시스템 개선</strong><br/>
       <sub>LOOP 백엔드 구조 수정<br/>예외 조건 테스트</sub>
     </td>
-    <td width="34%" align="center" valign="top">
+    <td width="368" align="center" valign="top">
       <strong>🏭 현업 서비스 개발</strong><br/>
       <sub>업무 데이터 설계<br/>API 개발·운영</sub>
     </td>
-    <td width="33%" align="center" valign="top">
+    <td width="366" align="center" valign="top">
       <strong>🛡️ AI 품질 검증</strong><br/>
       <sub>오류 선별·검수 UI<br/>검증 데이터셋 구축</sub>
     </td>
