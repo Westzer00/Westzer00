@@ -4,7 +4,7 @@
 
 ## 🎯 대표 프로젝트
 
-<table>
+<table width="100%">
   <tr>
     <td width="21%" align="center" valign="middle">
       <h2>🔁</h2>
@@ -54,11 +54,24 @@
 
 ## 📂 다른 프로젝트
 
-| 프로젝트 | 구현과 검증 내용 |
-|:---|:---|
-| 🧴 **[화장품 신제품 위험 선별 ML](https://github.com/Westzer00/cosmetic-coldstart-risk-ml)** | 출시 전 입력 변수 설계와 데이터 누수 방지 검증. **4인 팀장·제1저자 학술발표** |
-| 🎬 **[영상 관심 구간 검색·평가](https://github.com/Westzer00/univtg-creator-segment-retrieval)** | UniVTG 기반 검색, LLM 질의 설계, 상위 후보 정렬 단계의 성능 병목 분석 |
-| 🚀 **[로켓 비행전자 시스템](https://github.com/Westzer00/rocket-avionics-case-study)** | 센서 처리·하강 판단·낙하산 제어 개발 참여, 실제 제작·발사 시험 및 코드·사진 |
+<table width="100%">
+  <tr>
+    <th width="35%" align="left">프로젝트</th>
+    <th width="65%" align="left">구현 및 검증</th>
+  </tr>
+  <tr>
+    <td>🧴 <a href="https://github.com/Westzer00/cosmetic-coldstart-risk-ml"><strong>신제품 위험 선별 ML</strong></a></td>
+    <td>출시 전 입력 변수 설계·데이터 누수 방지 검증<br/><sub>4인 팀장 · 제1저자 학술발표</sub></td>
+  </tr>
+  <tr>
+    <td>🎬 <a href="https://github.com/Westzer00/univtg-creator-segment-retrieval"><strong>영상 관심 구간 검색·평가</strong></a></td>
+    <td>UniVTG 검색·LLM 질의 설계, 상위 후보 정렬 병목 분석</td>
+  </tr>
+  <tr>
+    <td>🚀 <a href="https://github.com/Westzer00/rocket-avionics-case-study"><strong>로켓 비행전자 시스템</strong></a></td>
+    <td>센서 처리·하강 판단·낙하산 제어 개발 참여<br/><sub>실제 제작·발사 시험 및 코드·사진</sub></td>
+  </tr>
+</table>
 
 ## 🛠️ 사용 기술
 
@@ -70,19 +83,19 @@
 
 ## 💡 개발 강점
 
-<table>
+<table width="100%">
   <tr>
     <td width="33%" align="center" valign="top">
-      🧩 <strong>기존 시스템 분석·개선</strong><br/>
-      <sub>EXEM LOOP 백엔드 로직 수정과<br/>예외 조건 테스트</sub>
+      <strong>🧩 기존 시스템 개선</strong><br/>
+      <sub>LOOP 백엔드 구조 수정<br/>예외 조건 테스트</sub>
     </td>
     <td width="34%" align="center" valign="top">
-      🏭 <strong>현업 중심 서비스 개발</strong><br/>
-      <sub>업무 흐름 분석부터 데이터 설계,<br/>API 개발·운영까지 수행</sub>
+      <strong>🏭 현업 서비스 개발</strong><br/>
+      <sub>업무 데이터 설계<br/>API 개발·운영</sub>
     </td>
     <td width="33%" align="center" valign="top">
-      🛡️ <strong>AI 결과 검증·품질 관리</strong><br/>
-      <sub>음성인식 오류 선별, 사람 검수 UI,<br/>검증 데이터셋 구축</sub>
+      <strong>🛡️ AI 품질 검증</strong><br/>
+      <sub>오류 선별·검수 UI<br/>검증 데이터셋 구축</sub>
     </td>
   </tr>
 </table>
