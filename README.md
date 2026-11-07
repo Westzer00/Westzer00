@@ -67,3 +67,22 @@
 **AI·데이터** &nbsp; `RAG` · `LLM API` · `Whisper` · `NeMo` · `Milvus` · `Pandas`
 
 **개발·검증** &nbsp; `Git` · `Docker` · `pytest` · `GitHub Actions` · `Cloudflare Workers`
+
+## 💡 개발 강점
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      🧩 <strong>기존 시스템 분석·개선</strong><br/>
+      <sub>EXEM LOOP 백엔드 로직 수정과<br/>예외 조건 테스트</sub>
+    </td>
+    <td width="34%" align="center" valign="top">
+      🏭 <strong>현업 중심 서비스 개발</strong><br/>
+      <sub>업무 흐름 분석부터 데이터 설계,<br/>API 개발·운영까지 수행</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      🛡️ <strong>AI 결과 검증·품질 관리</strong><br/>
+      <sub>음성인식 오류 선별, 사람 검수 UI,<br/>검증 데이터셋 구축</sub>
+    </td>
+  </tr>
+</table>
