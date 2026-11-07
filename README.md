@@ -2,13 +2,6 @@
 # 김서영 포트폴리오
 ### AI 서비스·백엔드·데이터 품질
 
-
-<p align="center">
-  <a href="https://github.com/Westzer00/exem-ai-workflow">💻 EXEM 개발 코드</a> &nbsp;·&nbsp;
-  <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">🎙️ STT 검수 코드</a> &nbsp;·&nbsp;
-  <a href="mailto:k953609@gmail.com">✉️ 이메일</a>
-</p>
-
 ## 🎯 대표 프로젝트
 
 <table>
