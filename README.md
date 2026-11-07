@@ -1,88 +1,115 @@
-# Seoyeong Kim | AI 서비스 개발
+<p align="center">
+  <img src="assets/profile-hero.svg" alt="김서영 | 데이터를 연결하고 AI 결과를 검증하는 AI 서비스·백엔드 개발자" width="100%" />
+</p>
 
-가천대학교 컴퓨터공학 전공 · **AI 서비스 / AI Agent / 백엔드 개발**
+<p align="center">
+  <a href="https://github.com/Westzer00/exem-ai-workflow"><img alt="EXEM 개발 코드" src="https://img.shields.io/badge/EXEM%20개발%20코드-203d4b?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline"><img alt="STT 검수 코드" src="https://img.shields.io/badge/STT%20검수%20코드-203d4b?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="mailto:k953609@gmail.com"><img alt="이메일 보내기" src="https://img.shields.io/badge/이메일-356f6a?style=flat-square&logo=gmail&logoColor=white" /></a>
+</p>
 
-**사용자에게 필요한 기능을 만들고, 데이터와 AI의 결과가 실제 업무에서 맞게 작동하는지 확인하는 개발**을 해왔습니다.
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <strong>🏭 현업 데이터 연결</strong><br/>
+      <sub>분산된 제조 데이터를 정리하고<br/>실제 사용하는 서비스로 구현</sub>
+    </td>
+    <td align="center" width="34%">
+      <strong>🔁 기존 플랫폼 개선</strong><br/>
+      <sub>워크플로우 실행 구조를 분석하고<br/>Python 백엔드·테스트 개발</sub>
+    </td>
+    <td align="center" width="33%">
+      <strong>🛡️ AI 결과 검증</strong><br/>
+      <sub>음성인식 오류 선별부터<br/>사람 검토·데이터 품질 관리까지</sub>
+    </td>
+  </tr>
+</table>
 
-- **기업 업무를 서비스로 구현:** 제조업의 MES·구매·수출·회계 데이터를 연결하는 API, AI 조회, 문서 자동화 개발·운영
-- **AI 결과의 오류를 검증:** 약 49.7시간의 음성 검수 체계와 사람 검토 도구 개발, 검증 데이터 구축에 참여
-- **기존 시스템의 한계를 개선:** EXEM AI 플랫폼의 LOOP 데이터 전달 문제를 발견하고 Python 백엔드 로직 및 테스트 개발
+## 대표 프로젝트
 
-## 주요 프로젝트
+<table>
+  <tr>
+    <td width="35%" align="center" valign="middle">
+      <a href="https://github.com/Westzer00/exem-ai-workflow">
+        <img src="assets/exem.svg" width="100%" alt="EXEM LOOP 백엔드 개선" />
+      </a>
+    </td>
+    <td width="65%" valign="top">
+      <h3>① <a href="https://github.com/Westzer00/exem-ai-workflow">EXEM · AI 워크플로우 및 LOOP 백엔드</a></h3>
+      <sub>2026.07~10 · 5인 기업연계 프로젝트 · 공공기관 협업 과제</sub>
+      <p><strong>문제</strong> — 기존 LOOP는 여러 내부 노드의 결과를 다음 회차에 구분해 전달하기 어려웠습니다.</p>
+      <p><strong>개인 개발</strong> — 입력·출력 바인딩과 이전 회차 결과 참조, 종료 조건을 Python으로 구현하고 테스트했습니다. 사내 PR·코드 리뷰를 거쳤습니다.</p>
+      <p><strong>서비스 참여</strong> — PHISIGHT 초기 화면·사용자 흐름 설계, 상세 UI 2인 공동 개발.</p>
+      <p>↳ <a href="https://github.com/Westzer00/exem-ai-workflow/tree/main/backend">독립 실행 코드·테스트</a> · <a href="https://github.com/Westzer00/exem-ai-workflow/blob/main/docs/development-review.md">개발·리뷰 과정</a> · <a href="https://github.com/Westzer00/exem-ai-workflow/blob/main/docs/ui-participation.md">UI 화면</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="35%" align="center" valign="middle">
+      <img src="assets/bli.svg" width="100%" alt="BLI 제조업 업무 데이터 통합과 AI 조회" />
+    </td>
+    <td width="65%" valign="top">
+      <h3>② BLI · 제조업 데이터 통합 및 AI 업무 플랫폼</h3>
+      <sub>2026.09~현재 · 2인 개발 · 실제 기업 업무에 적용</sub>
+      <p><strong>문제</strong> — 발주·입고·생산·수출·회계 기록이 부서와 시스템마다 분산돼 있었습니다.</p>
+      <p><strong>개인 개발</strong> — 품목·거래처·발주 정보를 관계형 데이터 구조로 정리하고 기존 MES와 연동했습니다. TypeScript 기반 API, AI 데이터 조회, 문서 자동화 및 중복 처리 방지 기능을 개발·운영했습니다.</p>
+      <p><sub>기업 내부 코드와 거래처 자료는 비공개이며, 그림은 실제 화면이 아닌 업무 흐름 개념도입니다.</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="35%" align="center" valign="middle">
+      <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">
+        <img src="assets/stt.svg" width="100%" alt="보이스피싱 음성인식 오류 검수 파이프라인" />
+      </a>
+    </td>
+    <td width="65%" valign="top">
+      <h3>③ <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">STT 품질 검수 · Human Review</a></h3>
+      <sub>EXEM 프로젝트의 개인 담당 영역을 별도 코드로 정리</sub>
+      <p><strong>문제</strong> — 음성인식 신뢰도가 높아도 기관명이나 금액처럼 중요한 정보가 잘못 인식됐습니다.</p>
+      <p><strong>개인 개발</strong> — 오류 의심 구간 선별, NeMo 화자 정렬, 원음 대조·수정용 Streamlit 검수 화면.</p>
+      <p><strong>팀 결과</strong> — 통화 <strong>511건</strong>을 처리하고 최종 검증 데이터셋 <strong>398건</strong> 구축에 참여했습니다. 검수 후보 <strong>5,152개</strong>를 선별했습니다.</p>
+      <p>↳ <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">코드·실행 방법</a> · <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline/actions">자동 테스트</a></p>
+    </td>
+  </tr>
+</table>
 
-### 1. BLI | 제조업 데이터 통합·AI 업무 플랫폼
+## 다른 프로젝트
 
-**2026.09~현재 · 2인 개발 · 실제 기업 업무에 적용**
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>🧴 <a href="https://github.com/Westzer00/cosmetic-coldstart-risk-ml">신제품 위험 선별 ML</a></strong><br/>
+      <sub>리뷰가 없는 신제품의 입력 변수 설계와 데이터 누수 방지 검증. <strong>4인 팀장·제1저자 학술발표.</strong></sub>
+    </td>
+    <td width="34%" valign="top">
+      <strong>🎬 <a href="https://github.com/Westzer00/univtg-creator-segment-retrieval">영상 구간 검색·평가</a></strong><br/>
+      <sub>영상별 LLM 질의·UniVTG 검색 구현. 성능이 떨어진 원인을 후보 생성과 순위 결정 단계로 나눠 분석.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <strong>🚀 <a href="https://github.com/Westzer00/rocket-avionics-case-study">로켓 비행전자 시스템</a></strong><br/>
+      <sub>센서 데이터 처리와 하강 판단, 실제 발사 시험 참여. 독립 실행 예제와 제작·비행 사진 공개.</sub>
+    </td>
+  </tr>
+</table>
 
-부서별로 흩어진 발주·입고·생산·수출·회계 기록을 연결하고, 경영진과 실무자가 함께 사용하는 AI 업무 플랫폼을 개발했습니다.
+## 사용 기술
 
-- **업무 데이터 설계:** 품목·거래처·발주 등을 관계로 정리하고 기존 MES·회계·수출 자료와 연동
-- **AI·백엔드 구현:** TypeScript, Next.js, Cloudflare Workers, OpenAI API 기반 화면·API 및 근거 있는 데이터 조회
-- **업무 적용:** 문서 추출·대조, 견적·실제 매출·미확정 자료 구분, 분할 입고와 중복 처리 방지, 배포·운영
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-293e4d?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-293e4d?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-293e4d?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-293e4d?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-293e4d?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-293e4d?style=for-the-badge&logo=git&logoColor=white" />
+</p>
 
-> 고객사의 원천 데이터와 내부 소스는 공개하지 않습니다. 실제 화면은 비식별화한 별도 발표 자료로 정리합니다.
-
-### 2. [EXEM / PHISIGHT | AI 워크플로우·LOOP 백엔드 개선](https://github.com/Westzer00/exem-ai-workflow)
-
-**2026.07~2026.10 · 5인 팀 · 공공기관 협업 과제**
-
-RAG 기반 검색 → 유형 분류 → 시나리오 생성 → 결과 검수로 이어지는 보이스피싱 분석 서비스를 팀과 함께 개발했습니다.
-
-- **기존 플랫폼 개선:** 내부 노드의 여러 출력을 다음 회차로 전달하기 어려운 문제를 발견하고 LOOP 입출력 바인딩·이전 회차 참조·종료 조건을 Python으로 개발하고 테스트
-- **사내 개발 과정:** 기능 기획과 하위 작업 분해, PR·코드 리뷰 피드백 반영까지 수행(회사 Git 기록은 비공개)
-- **기술 검증:** 정상 동작뿐 아니라 값 누락·잘못된 참조·반복 종료 등 오류 조건을 점검
-
-- **서비스 UI:** 입력부터 검수까지 화면 흐름을 설계하고 상세 UI를 팀원 1명과 공동 구현
-- [독립 LOOP 코드·테스트·개발 과정·PHISIGHT UI 설명](https://github.com/Westzer00/exem-ai-workflow)
-
-협업기관명과 원본 데이터는 공개하지 않으며 공공기관 현장 도입·운영 실적을 주장하지 않습니다.
-
-### 3. [STT 검수 파이프라인](https://github.com/Westzer00/voice-phishing-stt-qc-pipeline)
-
-**Python · Whisper · NeMo · Streamlit**
-
-- 통화 **511건** 분석, 읽기 가능한 **509건 약 2,984분**, 최종 검증 데이터 **398건** 구축에 참여
-- 금융·수사 관련 핵심 단어의 오류를 찾기 위해 **5,152개 의심 구간**과 **37건 재검토 통화** 선별
-- 원음 대조와 수정이 가능한 사람 검토 UI, 화자 정렬 및 검수 계획 구현
-- [핵심 코드·실행 방법·테스트](https://github.com/Westzer00/voice-phishing-stt-qc-pipeline#실행-및-테스트)
-
-### 4. [리뷰 없는 신제품 위험 선별 머신러닝](https://github.com/Westzer00/cosmetic-coldstart-risk-ml)
-
-**4인 팀장 · 2026 한국데이터마이닝학회 제1저자 포스터 발표**
-
-- 리뷰가 없는 신제품에서 사용할 수 있는 성분·제품명·피부유형으로 입력 변수 구성
-- 유사 처방 제품군이 학습·평가에 섞이는 데이터 누수 방지
-- 독립 평가에서 **Recall 63.1%, PR-AUC 0.384**, 고위험 조합 **65개 중 41개** 탐지
-- [전처리 코드·검증 방법·연구 결과](https://github.com/Westzer00/cosmetic-coldstart-risk-ml)
-
-### 5. [영상 관심 구간 추천 및 성능 분석](https://github.com/Westzer00/univtg-creator-segment-retrieval)
-
-- UniVTG와 영상별 LLM 질의로 후보 구간을 생성하고 YouTube 반복 재생 구간으로 평가
-- Top-50 후보에는 유효 구간이 있으나 Top-10 정렬 과정에서 성능이 낮아지는 **병목 확인**
-- [코드·평가 지표·한계](https://github.com/Westzer00/univtg-creator-segment-retrieval)
-
-### 6. [로켓 비행전자·낙하산 전개 제어](https://github.com/Westzer00/rocket-avionics-case-study)
-
-- 실제 로켓에 센서·제어 장치를 통합하고 발사 시험에 참여한 팀 프로젝트
-- Raspberry Pi에서 센서값을 처리하고 고도 기반 하강 판단 → 제어 출력 흐름에 참여
-- [구조·독립 실행 예제·테스트·실제 제작 사진](https://github.com/Westzer00/rocket-avionics-case-study)
-
-## 사용할 수 있는 기술
-
-| 분야 | 직접 적용한 기술과 작업 |
-|---|---|
-| **언어·서비스** | Python, TypeScript, JavaScript, FastAPI, Next.js, REST API |
-| **AI·데이터** | Whisper, NeMo, Pandas, scikit-learn, Milvus, RAG, LLM, OpenAI API |
-| **배포·검증** | Cloudflare Workers, Docker, Git/GitHub, pytest, Streamlit |
-| **하드웨어** | Raspberry Pi, I2C, UART, GPIO/PWM |
-
-기술 목록보다 **어디에 적용했고 어떻게 확인했는지**를 각 저장소의 README와 코드·테스트에서 확인할 수 있도록 구성했습니다.
-
-## 연락
-
-- **이메일:** k953609@gmail.com
-- **GitHub:** [@Westzer00](https://github.com/Westzer00)
+<p align="center">
+  <sub><strong>AI·데이터:</strong> RAG · LLM API · Whisper · NeMo · Milvus · scikit-learn &nbsp;|&nbsp; <strong>개발·검증:</strong> REST API · pytest · GitHub Actions · Cloudflare Workers</sub>
+</p>
 
 ---
 
-**기여 범위:** 기업·팀 프로젝트의 결과는 개인 담당 영역과 구분했습니다. 비공개 제품 소스, 실제 음성·고객 데이터와 인증 정보는 공개하지 않습니다.
+<p align="center">
+  <strong>설계만 설명하지 않고, 실제 코드와 테스트로 보여주겠습니다.</strong><br/>
+  <sub>기업·팀 성과는 개인 기여와 구분하며, 내부 코드와 원본 개인정보는 공개하지 않습니다.</sub><br/><br/>
+  <a href="mailto:k953609@gmail.com">✉️ 이메일</a> &nbsp;·&nbsp; <a href="https://github.com/Westzer00">GitHub</a>
+</p>
