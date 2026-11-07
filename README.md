@@ -1,91 +1,85 @@
-# Seoyeong Kim
+# Seoyeong Kim | AI 서비스 개발
 
-Computer Engineering @ Gachon University  
-**Applied AI · AI Service Development · Backend Engineering**
+가천대학교 컴퓨터공학 전공 · **AI 서비스 / AI Agent / 백엔드 개발**
 
-실제 업무에서 생성되는 데이터를 연결하고, **AI가 낸 결과를 검증하며 필요한 기능을 API와 서비스로 구현**하는 개발에 관심이 있습니다.
+**사용자에게 필요한 기능을 만들고, 데이터와 AI의 결과가 실제 업무에서 맞게 작동하는지 확인하는 개발**을 해왔습니다.
 
-- 데이터 품질 검수부터 RAG·LLM 워크플로우와 기존 플랫폼 백엔드 개선까지 경험
-- 제조업 현업 데이터와 MES를 연결하는 AI 조회·자동화 플랫폼 개발·운영
-- 프로젝트의 문제와 설계 판단, 구현 코드, 테스트를 확인할 수 있도록 정리
+- **기업 업무를 서비스로 구현:** 제조업의 MES·구매·수출·회계 데이터를 연결하는 API, AI 조회, 문서 자동화 개발·운영
+- **AI 결과의 오류를 검증:** 약 49.7시간의 음성 검수 체계와 사람 검토 도구 개발, 검증 데이터 구축에 참여
+- **기존 시스템의 한계를 개선:** EXEM AI 플랫폼의 LOOP 데이터 전달 문제를 발견하고 Python 백엔드 로직 및 테스트 개발
 
-## Selected Engineering Work
+## 주요 프로젝트
 
-### 🏭 BLI — Manufacturing Data Integration & AI Platform
+### 1. BLI | 제조업 데이터 통합·AI 업무 플랫폼
 
-**2026.09 – 현재 · 2인 개발 · 실제 기업 업무에 적용**
+**2026.09~현재 · 2인 개발 · 실제 기업 업무에 적용**
 
-- 제조기업의 발주·입고·생산·수출·회계 데이터를 업무 개체와 관계로 모델링하고 기존 MES와 연결
-- TypeScript, React/Next.js, Cloudflare Workers 기반 웹·API 및 OpenAI API 연동
-- 권한별 업무 조회, 원천 근거 확인, 문서 처리 자동화 및 중복·미확정 데이터 관리 기능 구현
-- 실제 기업 내부 코드와 거래 정보는 공개하지 않음. 화면 자료는 공개 가능 범위를 구분해 별도 포트폴리오로 정리
+부서별로 흩어진 발주·입고·생산·수출·회계 기록을 연결하고, 경영진과 실무자가 함께 사용하는 AI 업무 플랫폼을 개발했습니다.
 
-### 🔁 EXEM — LOOP Backend & PHISIGHT Workflow
+- **업무 데이터 설계:** 품목·거래처·발주 등을 관계로 정리하고 기존 MES·회계·수출 자료와 연동
+- **AI·백엔드 구현:** TypeScript, Next.js, Cloudflare Workers, OpenAI API 기반 화면·API 및 근거 있는 데이터 조회
+- **업무 적용:** 문서 추출·대조, 견적·실제 매출·미확정 자료 구분, 분할 입고와 중복 처리 방지, 배포·운영
 
-**2026.07 – 2026.10 · 5인 기업연계 프로젝트**
+> 고객사의 원천 데이터와 내부 소스는 공개하지 않습니다. 실제 화면은 비식별화한 별도 발표 자료로 정리합니다.
 
-- RAG 검색 → 유형 분류 → LLM 생성 → 결과 검수로 이어지는 AI 워크플로우 개발 참여
-- 기존 AI 플랫폼 LOOP의 내부 출력 전달 한계를 분석하고, Python 입·출력 바인딩 및 이전 회차 결과 전달 로직 개선·테스트에 참여
-- PHISIGHT의 초기 화면 구조·사용자 흐름을 설계하고 상세 UI를 2인 공동 구현
-- 기업 원본 플랫폼과 팀 UI·서버 코드는 비공개이며, 개인 기여를 설명하는 독립 예제를 별도로 구성
+### 2. EXEM / PHISIGHT | AI 워크플로우·LOOP 백엔드 개선
 
-### 🛡 Voice Phishing STT QC & Human Review Pipeline
-[Repository](https://github.com/Westzer00/voice-phishing-stt-qc-pipeline)
+**2026.07~2026.10 · 5인 기업연계 프로젝트**
 
-- **511건** 통화 STT (읽기 가능한 509건 총 **약 2,984분**) · **최종 검증 데이터 398건** 팀 구축
-- **5,152개 오류 의심 구간 / 37건 전체 재검토 대상**을 선별하는 High-Recall QC 로직과 Human Review 흐름
-- Whisper word timestamp와 NeMo 화자 구간의 시간 겹침 정렬 및 검수 계획·Streamlit UI
-- 공개 프로젝트에는 실제 음성 대신 합성 샘플, 실행 코드, 테스트와 GitHub Actions를 포함
+RAG 기반 검색 → 유형 분류 → 시나리오 생성 → 결과 검수로 이어지는 보이스피싱 분석 서비스를 팀과 함께 개발했습니다.
 
-### 🧴 Cosmetic Cold-Start Risk ML
-[Repository](https://github.com/Westzer00/cosmetic-coldstart-risk-ml)
+- **기존 플랫폼 개선:** LOOP 내부 노드의 출력을 다음 회차로 전달하기 어려운 문제를 발견. 입력·출력 바인딩, 이전 회차 결과 참조, 종료 조건과 관련 테스트 개발
+- **서비스 UI:** 입력부터 검수까지의 화면 구조·사용자 흐름을 설계하고 상세 화면을 팀원 1명과 공동 구현
+- **기술 검증:** 정상 동작뿐 아니라 값 누락·잘못된 참조·반복 종료 등 오류 조건을 점검
 
-- 리뷰가 없는 신제품 화장품의 **피부유형별 부정 경험 위험**을 출시 전 정보만으로 선별하는 문제 정의
-- **47,487개 리뷰**는 Label 생성에만 사용하고, Prediction Input에서는 제외해 cold-start 조건을 유지
-- 성분·기능군·피부유형 상호작용 중심의 Feature Engineering과 formula-group 기반 leakage-aware validation 수행
-- Independent Test: **Recall 63.1%, PR-AUC 0.384**, High Risk 65건 중 41건 탐지
-- 4인 팀 **팀장·제1저자**, 2026 한국데이터마이닝학회 하계학술대회 Poster P1-62
+기업 제품 소스와 팀 공동 코드는 공개하지 않습니다. 공개 가능한 독립 재현 예제와 문서를 별도로 구성하고 있습니다.
 
-### 🎬 UniVTG Creator Segment Retrieval
-[Repository](https://github.com/Westzer00/univtg-creator-segment-retrieval)
+### 3. [STT 검수 파이프라인](https://github.com/Westzer00/voice-phishing-stt-qc-pipeline)
 
-- 영상별 transcript와 title에서 LLM query를 생성하고 **UniVTG Top-50 candidate → Top-10 ranking**으로 이어지는 retrieval pipeline 구현
-- YouTube Most Replayed는 retrieval 입력이 아닌 **독립적인 viewer-interest evaluation proxy**로 사용
-- 대표 결과: **nDCG@10 0.3398 / Any-Hit@10(tIoU 0.3) 68.89% / Top-50 Oracle nDCG@10 0.6319**
-- Candidate Generation보다 **Ranking이 주요 bottleneck**임을 실험 결과로 분리해 분석
+**Python · Whisper · NeMo · Streamlit**
 
-### 🚀 Rocket Avionics Case Study
-[Repository](https://github.com/Westzer00/rocket-avionics-case-study)
+- 통화 **511건** 분석, 읽기 가능한 **509건 약 2,984분**, 최종 검증 데이터 **398건** 구축에 참여
+- 금융·수사 관련 핵심 단어의 오류를 찾기 위해 **5,152개 의심 구간**과 **37건 재검토 통화** 선별
+- 원음 대조와 수정이 가능한 사람 검토 UI, 화자 정렬 및 검수 계획 구현
+- [핵심 코드·실행 방법·테스트](https://github.com/Westzer00/voice-phishing-stt-qc-pipeline#실행-및-테스트)
 
-- GOAT 2024 전자부에서 **BMP280 · GPS · 9DOF IMU** 기반 비행 데이터 수집·처리 및 실제 발사체 통합 테스트 참여
-- Raspberry Pi에서 **I2C / UART**로 센서를 연결하고, altitude baseline 및 moving average 기반 하강 판단 로직 구현에 참여
-- 하강 조건 판단 결과를 **GPIO / PWM → Relay / Servo → parachute deployment**로 연결
-- 개인 Case Study에는 팀 전체 코드를 복사하지 않고, 실제 기여 범위와 시스템 구조를 중심으로 정리
+### 4. [리뷰 없는 신제품 위험 선별 머신러닝](https://github.com/Westzer00/cosmetic-coldstart-risk-ml)
 
+**4인 팀장 · 2026 한국데이터마이닝학회 제1저자 포스터 발표**
 
-## Engineering Focus
+- 리뷰가 없는 신제품에서 사용할 수 있는 성분·제품명·피부유형으로 입력 변수 구성
+- 유사 처방 제품군이 학습·평가에 섞이는 데이터 누수 방지
+- 독립 평가에서 **Recall 63.1%, PR-AUC 0.384**, 고위험 조합 **65개 중 41개** 탐지
+- [전처리 코드·검증 방법·연구 결과](https://github.com/Westzer00/cosmetic-coldstart-risk-ml)
 
-- **AI Application / Backend** — RAG·LLM 워크플로우, API 연동, 반복 실행 상태 및 데이터 전달
-- **Data Quality / Evaluation** — STT QC, Human Review, 검증 데이터 구축, ML validation
-- **Business Data Integration** — 제조업 업무 데이터 모델링, MES 연동, 문서 자동화
-- **Multimodal / Embedded** — Video-Language Retrieval, 센서 입력·상태 판단·제어
+### 5. [영상 관심 구간 추천 및 성능 분석](https://github.com/Westzer00/univtg-creator-segment-retrieval)
 
-## Tech (Project Experience)
+- UniVTG와 영상별 LLM 질의로 후보 구간을 생성하고 YouTube 반복 재생 구간으로 평가
+- Top-50 후보에는 유효 구간이 있으나 Top-10 정렬 과정에서 성능이 낮아지는 **병목 확인**
+- [코드·평가 지표·한계](https://github.com/Westzer00/univtg-creator-segment-retrieval)
 
-**Programming & Web**  
-Python · TypeScript · JavaScript · FastAPI · React · Next.js · SQL
+### 6. [로켓 비행전자·낙하산 전개 제어](https://github.com/Westzer00/rocket-avionics-case-study)
 
-**AI & Data**  
-Pandas · scikit-learn · Whisper · NeMo · Milvus · RAG · LLM · OpenAI API · UniVTG
+- 실제 로켓에 센서·제어 장치를 통합하고 발사 시험에 참여한 팀 프로젝트
+- Raspberry Pi에서 센서값을 처리하고 고도 기반 하강 판단 → 제어 출력 흐름에 참여
+- [구조·독립 실행 예제·테스트·실제 제작 사진](https://github.com/Westzer00/rocket-avionics-case-study)
 
-**Systems & Workflow**  
-Cloudflare Workers · Docker · Git / GitHub · pytest · Streamlit · Raspberry Pi · I2C / UART · GPIO / PWM
+## 사용할 수 있는 기술
 
-## Contact
+| 분야 | 직접 적용한 기술과 작업 |
+|---|---|
+| **언어·서비스** | Python, TypeScript, JavaScript, FastAPI, Next.js, REST API |
+| **AI·데이터** | Whisper, NeMo, Pandas, scikit-learn, Milvus, RAG, LLM, OpenAI API |
+| **배포·검증** | Cloudflare Workers, Docker, Git/GitHub, pytest, Streamlit |
+| **하드웨어** | Raspberry Pi, I2C, UART, GPIO/PWM |
 
-- Email: **k953609@gmail.com**
-- GitHub: **[@Westzer00](https://github.com/Westzer00)**
+기술 목록보다 **어디에 적용했고 어떻게 확인했는지**를 각 저장소의 README와 코드·테스트에서 확인할 수 있도록 구성했습니다.
+
+## 연락
+
+- **이메일:** k953609@gmail.com
+- **GitHub:** [@Westzer00](https://github.com/Westzer00)
 
 ---
 
-공개 저장소에는 확인 가능한 개인 기여, 실행 예제와 기술적 판단을 정리했습니다. 팀 프로젝트 성과는 개인 작업과 구분하며 비공개 데이터·기업 소스·credential은 공개하지 않습니다.
+**기여 범위:** 기업·팀 프로젝트의 결과는 개인 담당 영역과 구분했습니다. 비공개 제품 소스, 실제 음성·고객 데이터와 인증 정보는 공개하지 않습니다.
