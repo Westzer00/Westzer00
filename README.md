@@ -1,6 +1,7 @@
-<p align="center">
-  <img src="assets/profile-hero.svg" width="100%" alt="김서영 | AI 서비스·백엔드·데이터 품질" />
-</p>
+
+# 김서영 포트폴리오
+### AI 서비스·백엔드·데이터 품질
+
 
 <p align="center">
   <a href="https://github.com/Westzer00/exem-ai-workflow">💻 EXEM 개발 코드</a> &nbsp;·&nbsp;
@@ -20,8 +21,8 @@
     <td width="79%" valign="top">
       <strong><a href="https://github.com/Westzer00/exem-ai-workflow">EXEM · AI 워크플로우 및 PHISIGHT</a></strong><br/>
       <sub>2026.07~10 · 5인 기업연계 프로젝트 · 공공기관 협업 과제</sub>
-      <p><strong>문제</strong> — 반복 실행 중 여러 노드의 결과를 다음 회차에 구분해서 전달하기 어려웠습니다.</p>
-      <p><strong>개인 구현</strong> — LOOP 입출력 바인딩, 이전 회차 참조, 종료 조건을 Python으로 개발하고 테스트했습니다. 사내 PR·코드 리뷰를 거쳤습니다.</p>
+      <p><strong>문제</strong> — 반복 실행 중 여러 노드의 결과를 다음 회차에 구분해서 전달하기 어려운 문제 해결</p>
+      <p><strong>개인 구현</strong> — LOOP 입출력 바인딩, 이전 회차 참조, 종료 조건을 Python으로 사내 PR·코드 리뷰를 거쳐 개발하고 테스트. </p>
       <p><strong>협업</strong> — PHISIGHT 화면 흐름 설계 및 상세 UI 공동 개발.</p>
       <p><a href="https://github.com/Westzer00/exem-ai-workflow/tree/main/backend">코드·테스트</a> · <a href="https://github.com/Westzer00/exem-ai-workflow/blob/main/docs/development-review.md">개발 과정</a> · <a href="https://github.com/Westzer00/exem-ai-workflow/blob/main/docs/ui-participation.md">UI 화면</a></p>
     </td>
