@@ -8,8 +8,8 @@
   <tr>
     <td width="21%" align="center" valign="middle">
       <h2>🔁</h2>
-      <strong>LOOP 백엔드</strong><br/>
-      <sub>기존 플랫폼 개선</sub>
+      <strong>AI 백엔드 개발</strong><br/>
+      <sub>LOOP 입·출력 구조 개선</sub>
     </td>
     <td width="79%" valign="top">
       <strong><a href="https://github.com/Westzer00/exem-ai-workflow">EXEM · AI 워크플로우 및 PHISIGHT</a></strong><br/>
