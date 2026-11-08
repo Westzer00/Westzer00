@@ -14,6 +14,7 @@
     <td width="870" valign="top">
       <strong><a href="https://github.com/Westzer00/exem-ai-workflow">EXEM · AI 워크플로우 및 PHISIGHT</a></strong><br/>
       <sub>2026.07~10 · 5인 기업연계 프로젝트 · 공공기관 협업 과제</sub>
+      <p></p>
       <p>🔎 <strong>문제</strong> — LOOP 내부 여러 노드의 실행 결과를 다음 회차에 개별 전달하기 어려운 기존 구조</p>
       <p>👩‍💻 <strong>개인 구현</strong> — LOOP 입출력 바인딩, 이전 회차 결과 전달, 종료 조건 처리 등 Python 백엔드 로직 개발·테스트 및 사내 PR·코드 리뷰 반영</p>
       <p>🤝 <strong>협업</strong> — PHISIGHT 화면 구조·사용자 흐름 설계 및 상세 UI 공동 개발</p>
@@ -30,6 +31,7 @@
     <td valign="top">
       <strong>BLI · 제조업 데이터 통합 및 AI 업무 플랫폼</strong><br/>
       <sub>2026.09~현재 · 2인 개발 · 실제 기업 업무 적용</sub>
+      <p></p>
       <p>🔎 <strong>문제</strong> — 발주·입고·생산·수출·회계 데이터의 부서별 분산 관리와 정보 불일치</p>
       <p>👩‍💻 <strong>개인 구현</strong> — 품목·거래처·발주 데이터 모델 설계, 기존 MES 연동, TypeScript 기반 API·AI 조회·문서 자동화 및 중복 처리 방지 기능 개발·운영</p>
       <p><sub>기업 내부 코드 및 거래처 자료 비공개</sub></p>
@@ -44,6 +46,7 @@
     <td valign="top">
       <strong><a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">보이스피싱 음성인식 검수 파이프라인</a></strong><br/>
       <sub>EXEM 기업연계 프로젝트 · 개인 개발 코드 공개</sub>
+      <p></p>
       <p>🔎 <strong>문제</strong> — 음성인식 결과에서 기관명·금액 등 핵심 정보의 오인식 발생</p>
       <p>👩‍💻 <strong>개인 구현</strong> — 오류 의심 구간 선별 로직, 화자 정렬 및 원음 비교·수정용 검수 UI 개발</p>
       <p>📊 <strong>개인 수행</strong> — 통화 511건 STT 처리·검수, 오류 의심 구간 5,152개 선별, 최종 검증 데이터셋 398건 구축</p>
@@ -91,7 +94,7 @@
     </td>
     <td width="368" align="center" valign="top">
       <strong>🏭 현업 서비스 개발</strong><br/>
-      <sub>업무 데이터 설계<br/>API 개발·운영</sub>
+      <sub>업무 데이터 설계<br/>데이터 분석</sub>
     </td>
     <td width="366" align="center" valign="top">
       <strong>🛡️ AI 품질 검증</strong><br/>
