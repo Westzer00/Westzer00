@@ -25,18 +25,18 @@
   <tr>
     <td align="center" valign="middle">
       <h2>🏭</h2>
-      <strong>제조 데이터 분석</strong><br/>
-      <sub>데이터 선별·정제·데이터셋 구축</sub>
+      <strong>제조기업 AX 전환</strong><br/>
+      <sub>데이터 기반 구축·분석</sub>
     </td>
     <td valign="top">
-      <strong>BLI · 제조업 데이터 통합 및 AI 업무 플랫폼</strong><br/>
+      <strong>BLI · 제조기업 AX 전환을 위한 데이터 기반 구축</strong><br/>
       <sub>2026.09~현재 · 2인 프로젝트 · 제조업 현업 데이터 활용</sub>
       <p></p>
-      <p>🔎 <strong>문제</strong> — 발주·입고·생산·수출·회계 자료의 분산 관리, 입력 누락과 품목 표기 불일치로 분석용 데이터 확보·조회에 어려움</p>
-      <p>👩‍💻 <strong>핵심 기여</strong> — 업무 원천 데이터 수집·선별, 품목·거래처·발주 정보의 정규화, MES·문서 데이터 대조·정제를 통한 분석용 데이터셋 구축</p>
-      <p>📊 <strong>분석·조회</strong> — 제품·부품·거래처별 데이터 검색 및 월별 집계·현황 조회 기능 개발</p>
-      <p>🧩 <strong>확장 경험</strong> — AI 조회 및 문서 처리 자동화 기능 일부 개발·실험</p>
-      <p><sub>기업 내부 코드 및 거래처 자료 비공개</sub></p>
+      <p>🔎 <strong>문제</strong> — 발주·입고·생산·수출·회계 데이터의 부서별 분산, 입력 누락·품목 표기 불일치로 인한 데이터 활용 제약</p>
+      <p>👩‍💻 <strong>핵심 기여</strong> — 제조 원천 데이터 수집·선별·정제, 품목·거래처·발주 정보 표준화 및 MES·문서 자료 대조를 통한 분석용 데이터셋 구축</p>
+      <p>📊 <strong>분석·조회</strong> — 제품·부품·거래처별 데이터 검색·집계와 월별 현황 조회 기능 개발</p>
+      <p>🧩 <strong>확장 경험</strong> — AI 기반 업무 조회 및 문서 처리 자동화 기능 일부 개발·실험</p>
+      <p><sub>AX 전환 프로젝트의 데이터 기반 구축 영역 담당 · 기업 내부 코드 및 거래처 자료 비공개</sub></p>
     </td>
   </tr>
   <tr>
@@ -95,8 +95,8 @@
       <sub>LOOP 백엔드 구조 수정<br/>예외 조건 테스트</sub>
     </td>
     <td width="368" align="center" valign="top">
-      <strong>🏭 제조 데이터셋 구축</strong><br/>
-      <sub>원천 데이터 선별·정제<br/>분석·조회 기능 개발</sub>
+      <strong>🏭 AX 데이터 기반 구축</strong><br/>
+      <sub>제조 데이터 선별·정제<br/>데이터셋 구축·분석</sub>
     </td>
     <td width="366" align="center" valign="top">
       <strong>🛡️ AI 품질 검증</strong><br/>
