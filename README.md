@@ -1,53 +1,101 @@
-# 김서영 | AI 서비스 개발
 
-Python과 TypeScript로 데이터를 다루고, AI 워크플로우가 실제 화면·API에서 어떻게 실행되는지 구현하고 검증하는 일을 해왔습니다.
+# 김서영 포트폴리오
+### AI Agent Engineer · AI 서비스 개발자
 
-기업 프로젝트에서는 **기존 코드의 제약을 분석해 수정하는 일**, 음성인식 결과의 **사람 검수 절차**, 제조업의 **업무 데이터 연결**을 경험했습니다. 팀 전체 성과와 개인 작업은 각 저장소에 나눠 적었습니다.
+## 🎯 대표 프로젝트
 
-## 주요 작업
+<table width="1100">
+  <tr>
+    <td width="230" align="center" valign="middle">
+      <h2>🔁</h2>
+      <strong>AI 백엔드 개발</strong><br/>
+      <sub>LOOP 입·출력 구조 개선</sub>
+    </td>
+    <td width="870" valign="top">
+      <strong><a href="https://github.com/Westzer00/exem-ai-workflow">EXEM · AI 워크플로우 및 PHISIGHT</a></strong><br/>
+      <sub>2026.07~10 · 5인 기업연계 프로젝트 · 공공기관 협업 과제</sub>
+      <p>🔎 <strong>문제</strong> — LOOP 내부 여러 노드의 실행 결과를 다음 회차에 개별 전달하기 어려운 기존 구조</p>
+      <p>👩‍💻 <strong>개인 구현</strong> — LOOP 입출력 바인딩, 이전 회차 결과 전달, 종료 조건 처리 등 Python 백엔드 로직 개발·테스트 및 사내 PR·코드 리뷰 반영</p>
+      <p>🤝 <strong>협업</strong> — PHISIGHT 화면 구조·사용자 흐름 설계 및 상세 UI 공동 개발</p>
+      <p>🎯 <strong>팀 성과</strong> — 공공기관 피싱 공동대응 지원을 위한 보이스피싱·스미싱 사례 분석, 유사사례 검색, 신규 시나리오 생성·검증 워크플로우와 운영 UI 구축</p>
+      <p><a href="https://github.com/Westzer00/exem-ai-workflow/tree/main/backend">코드·테스트</a> · <a href="https://github.com/Westzer00/exem-ai-workflow/blob/main/docs/development-review.md">개발 과정</a> · <a href="https://github.com/Westzer00/exem-ai-workflow/blob/main/docs/ui-participation.md">UI 화면</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <h2>🏭</h2>
+      <strong>제조업 AI</strong><br/>
+      <sub>현업 데이터 통합</sub>
+    </td>
+    <td valign="top">
+      <strong>BLI · 제조업 데이터 통합 및 AI 업무 플랫폼</strong><br/>
+      <sub>2026.09~현재 · 2인 개발 · 실제 기업 업무 적용</sub>
+      <p>🔎 <strong>문제</strong> — 발주·입고·생산·수출·회계 데이터의 부서별 분산 관리와 정보 불일치</p>
+      <p>👩‍💻 <strong>개인 구현</strong> — 품목·거래처·발주 데이터 모델 설계, 기존 MES 연동, TypeScript 기반 API·AI 조회·문서 자동화 및 중복 처리 방지 기능 개발·운영</p>
+      <p><sub>기업 내부 코드 및 거래처 자료 비공개</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <h2>🎧</h2>
+      <strong>STT 품질 검수</strong><br/>
+      <sub>오류 선별·사람 검토</sub>
+    </td>
+    <td valign="top">
+      <strong><a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">보이스피싱 음성인식 검수 파이프라인</a></strong><br/>
+      <sub>EXEM 기업연계 프로젝트 · 개인 개발 코드 공개</sub>
+      <p>🔎 <strong>문제</strong> — 음성인식 결과에서 기관명·금액 등 핵심 정보의 오인식 발생</p>
+      <p>👩‍💻 <strong>개인 구현</strong> — 오류 의심 구간 선별 로직, 화자 정렬 및 원음 비교·수정용 검수 UI 개발</p>
+      <p>📊 <strong>개인 수행</strong> — 통화 511건 STT 처리·검수, 오류 의심 구간 5,152개 선별, 최종 검증 데이터셋 398건 구축</p>
+      <p><a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">코드·실행 방법</a> · <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline/actions">자동 테스트</a></p>
+    </td>
+  </tr>
+</table>
 
-### 1. EXEM · eXemble LOOP 백엔드
+## 📂 다른 프로젝트
 
-[LOOP 개선 코드·기술 기록](https://github.com/Westzer00/exem-ai-workflow) · 2026.07–10 / 5인 기업연계 프로젝트
+<table width="1100">
+  <tr>
+    <th width="390" align="left">프로젝트</th>
+    <th width="710" align="left">구현 및 검증</th>
+  </tr>
+  <tr>
+    <td width="390">🧴 <a href="https://github.com/Westzer00/cosmetic-coldstart-risk-ml"><strong>신제품 위험 선별 ML</strong></a></td>
+    <td width="710">출시 전 입력 변수 설계·데이터 누수 방지 검증<br/><sub>4인 팀장 · 제1저자 학술발표</sub></td>
+  </tr>
+  <tr>
+    <td width="390">🎬 <a href="https://github.com/Westzer00/univtg-creator-segment-retrieval"><strong>영상 관심 구간 검색·평가</strong></a></td>
+    <td width="710">UniVTG 검색·LLM 질의 설계, 상위 후보 정렬 병목 분석</td>
+  </tr>
+  <tr>
+    <td width="390">🚀 <a href="https://github.com/Westzer00/rocket-avionics-case-study"><strong>로켓 비행전자 시스템</strong></a></td>
+    <td width="710">센서 처리·하강 판단·낙하산 제어 개발 참여<br/><sub>실제 제작·발사 시험 및 코드·사진</sub></td>
+  </tr>
+</table>
 
-기존 LOOP가 내부 노드의 여러 결과를 다음 실행으로 구분해 넘기기 어려워 입출력 바인딩과 직전 회차 결과 참조, 종료 조건 처리를 수정했습니다.
+## 🛠️ 사용 기술
 
-- **직접 담당:** 사내 Python 실행 로직 변경, 관련 테스트와 PR·코드 리뷰. PHISIGHT 화면의 사용자 흐름 설계 및 상세 UI는 팀원과 공동 작업
-- **GitHub 공개 범위:** 회사 원본 대신 동일한 핵심 동작을 다시 구현한 [독립 LOOP 엔진](https://github.com/Westzer00/exem-ai-workflow/tree/main/backend/loop_demo)·API·합성 데이터 예제
-- **남은 검증:** 사내 제품의 신규 설정 UI 연동·운영 배포와 실제 분석 엔진 연결은 완료된 것으로 표기하지 않음
+**서비스·백엔드** &nbsp; `Python` · `TypeScript` · `FastAPI` · `Next.js` · `REST API`
 
-### 2. BLI · 제조업 AI 업무 플랫폼
+**AI·데이터** &nbsp; `RAG` · `LLM API` · `Whisper` · `NeMo` · `Milvus` · `Pandas`
 
-2026.09–진행 중 / 2인 개발
+**개발·검증** &nbsp; `Git` · `Docker` · `pytest` · `GitHub Actions` · `Cloudflare Workers`
 
-발주·입고·생산·수출·회계 자료의 연결 관계를 정의하고 MES 및 업무 문서를 활용하는 화면·API와 AI 조회·문서 처리를 개발했습니다.
+## 💡 개발 강점
 
-- **참여 범위:** 품목·거래처·발주 데이터 모델, 조회 화면·API, 문서 처리와 중복 요청 방지 로직
-- **자료 범위:** 기업 내부 소스와 거래처 자료는 공개하지 않습니다. 이 GitHub의 독립 코드 테스트로 BLI 운영 성능을 증명하지 않습니다.
-
-### 3. 보이스피싱 STT 품질 검수
-
-[STT 검수 로직·Streamlit 예제](https://github.com/Westzer00/voice-phishing-stt-qc-pipeline) · EXEM 기업연계
-
-Whisper 전사에서 금액·기관명, 반복 표현, 낮은 confidence 등을 단서로 **사람이 확인할 구간**을 먼저 찾고, NeMo 화자 정렬과 검수 기록을 연결했습니다.
-
-- 전체 통화 **511건**, 읽기 가능한 **509건** 약 **2,984분** 대상으로 STT 처리·검수
-- 의심 후보 **5,152개 구간** 선별 및 검수 절차 담당
-- 최종 **398건 Gold 데이터셋은 팀 확정 결과**입니다.
-- 공개 UI는 합성 텍스트 기반 기록 데모이며 원음 재생과 실제 음성 데이터는 포함하지 않습니다.
-
-## 그 밖의 프로젝트
-
-| 프로젝트 | 맡은 작업 및 확인 가능한 결과 |
-|---|---|
-| [화장품 신제품 Cold-Start ML](https://github.com/Westzer00/cosmetic-coldstart-risk-ml) | 성분 전처리·변수 설계, 모델 비교 참여. 4인 팀장·2026 한국데이터마이닝학회 제1저자 포스터 |
-| [UniVTG 영상 구간 검색](https://github.com/Westzer00/univtg-creator-segment-retrieval) | LLM Query, Top-50 후보·Top-10 정렬 평가, 병목 분석. 원본 영상 추론은 외부 패키지 필요 |
-| [로켓 비행전자](https://github.com/Westzer00/rocket-avionics-case-study) | 센서 연동·하강 판단 조건 검토·비행전자 통합 시험. 2024 GOAT 팀 공동 작업; 공개 코드는 독립 재구성 예제 |
-
-## 사용 기술
-
-- **백엔드·웹:** Python, TypeScript, FastAPI, React, Next.js, REST API
-- **AI·데이터:** RAG, Milvus, Whisper, NeMo, LLM API, Pandas, scikit-learn
-- **개발·검증:** Git, pytest, Docker, GitHub Actions, SQL, Cloudflare Workers
-
-각 저장소의 README에는 **어떤 부분을 직접 구현했는지**, **팀 성과가 무엇인지**, **공개 코드만으로 검증되지 않는 항목이 무엇인지** 구분해 두었습니다.
+<table width="1100">
+  <tr>
+    <td width="366" align="center" valign="top">
+      <strong>🧩 기존 시스템 개선</strong><br/>
+      <sub>LOOP 백엔드 구조 수정<br/>예외 조건 테스트</sub>
+    </td>
+    <td width="368" align="center" valign="top">
+      <strong>🏭 현업 서비스 개발</strong><br/>
+      <sub>업무 데이터 설계<br/>API 개발·운영</sub>
+    </td>
+    <td width="366" align="center" valign="top">
+      <strong>🛡️ AI 품질 검증</strong><br/>
+      <sub>오류 선별·검수 UI<br/>검증 데이터셋 구축</sub>
+    </td>
+  </tr>
+</table>
