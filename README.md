@@ -51,7 +51,7 @@
       <p></p>
       <p>🔎 <strong>문제</strong> — 음성인식 결과에서 기관명·금액 등 핵심 정보의 오인식 발생</p>
       <p>👩‍💻 <strong>개인 구현</strong> — 오류 의심 구간 선별 로직, 화자 정렬 및 원음 비교·수정용 검수 UI 개발</p>
-      <p>📊 <strong>개인 수행</strong> — 통화 511건 STT 처리·검수, 오류 의심 구간 5,152개 선별, 최종 검증 데이터셋 398건 구축</p>
+      <p>📊 <strong>개인 담당</strong> — 전체 통화 511건 중 판독 가능한 509건의 STT 검수 절차 및 오류 의심 구간 5,152개 선별. <strong>최종 Gold 398건은 팀 확정 결과</strong></p>
       <p><a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline">코드·실행 방법</a> · <a href="https://github.com/Westzer00/voice-phishing-stt-qc-pipeline/actions">자동 테스트</a></p>
     </td>
   </tr>
